@@ -39,6 +39,7 @@ class _HomeState extends State<Home> {
     }
     showDialog(
       context: context,
+      barrierDismissible: false,
       builder: (context) {
         return AlertDialog(
           title: Text(_alertTitle),
